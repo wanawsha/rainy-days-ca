@@ -1,1 +1,5 @@
 @import url("/css/style.css");
+
+.new-arrivals {
+    display: flex;
+}
