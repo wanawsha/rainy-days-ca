@@ -2,7 +2,7 @@ body {
     font-family: 'Din Condensed';
     min-height: 100vh;
     margin: 0px;
-    background-color: #C4CFD1;
+    background-color: #fff;
 }
 
 h1, h2, h3 {
@@ -21,12 +21,16 @@ nav {
 
 nav li {
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-transform: uppercase;
 }
 
 nav ul {
+    display: flex;
+    justify-content: left;
     text-align: center;
+    gap: 50px;
+    margin-right: 90px;
 }
 
 nav a {
@@ -54,8 +58,15 @@ header {
     color: #0A3641;
     font-size: 2.7em;
     text-transform: uppercase;
+    margin-right: 20px;
 }
 
 main {
     margin: 50px;
+}
+
+footer {
+    background-color: #56747C;
+    padding: 100px;
+    color: #fff;
 }

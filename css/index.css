@@ -1,14 +1,12 @@
 @import url("/css/style.css");
 
 .new-arrivals {
+    text-transform: uppercase;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr auto;
-
 }
 
 .new-arrivals h1 {
-    text-align:center;
+    text-align: center;
 }
 
 .home-womens-products, .home-mens-products, .new-arrivals {
@@ -18,18 +16,29 @@
     background-color: #fff;   
     border-radius: 5px;
     padding: 50px;
-    margin: 40px auto;
+    margin: 40px 0px;
     min-width: 300px;
 }
+
+.home-womens-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    min-height: 400px;
+}
+
+.women-products {
+    background-color: #56747C;
+}
+
 
 .new-arrivals img {
     width: 500px;
     height: auto;
 
 }
-.women-products, .men-products {
-    display: inline-block
-}
+
 
 
 .women-products, .men-products img {
@@ -43,16 +52,16 @@
     background-color: #56747C;
     background-image: url(/images/about-us.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
-    padding: 180px;
     max-width: 1600px;
+    padding: 190px;
     margin: 40px auto;
     border-radius: 5px;
     
 }
 
 .about-us-content-home {
-    color: #000;
+    display: block;
+    color: #ffffff;
     font-size: 1.5em;
 
 }
