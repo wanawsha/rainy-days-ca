@@ -3,3 +3,29 @@
 .new-arrivals {
     display: flex;
 }
+
+.home-womens-products, .home-mens-products, .new-arrivals {
+    background-color: #fff;   
+}
+
+.women-products, .men-products {
+    display: inline-block;
+}
+
+
+.women-products, .men-products img {
+    width: 250px;
+    height: auto;
+}
+
+
+.about-us-home {
+    display: flex;
+    background-color: #56747C;
+}
+
+.woman-hiking {
+    width: 800px;
+    height: auto;
+
+}

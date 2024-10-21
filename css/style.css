@@ -2,6 +2,7 @@ body {
     font-family: 'Din Condensed';
     min-height: 100vh;
     margin: 0px;
+    background-color: #C4CFD1;
 }
 
 h1, h2, h3 {
@@ -18,9 +19,6 @@ nav {
     
 }
 
-img {
-    width: 100%;
-}
 nav li {
     display: inline-block;
     font-size: 1.5rem;
@@ -30,6 +28,10 @@ nav li {
 nav a {
     text-decoration: none;
     color: white
+}
+
+img {
+    width: 100%;
 }
 
 header {
@@ -46,7 +48,7 @@ header {
 .logo {
     text-decoration: none;
     color: #0A3641;
-    font-size: 2.5em;
+    font-size: 2.7em;
     text-transform: uppercase;
 }
 
