@@ -1,5 +1,44 @@
 @import url(/css/style.css);
+@import url(/css/index.css);
 
-/*^Women's Jackets Page*/
+/*Women's & Men's Jackets Page*/
 
+body {
+    color: #0A3641;
+}
+
+
+.products-list-women, .products-list-men {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr auto;
+    grid-gap: 10px 30px;
+}
+
+.products-w, .products-m {
+    display: grid;
+    place-items: center space-evenly;
+    grid-template-rows: 1fr auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    grid-row: 2 / 3 ;
+    
+}
+
+.products-w p, .products-m p {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    grid-row: 2 / 3 ;
+    align-self: end;
+}
+
+
+.products-w img, .products-m img {
+    grid-row: 1 / 2;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+
+}
 

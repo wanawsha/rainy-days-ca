@@ -2,7 +2,7 @@ body {
     font-family: 'Din Condensed';
     min-height: 100vh;
     margin: 0px;
-    background-color: #fff;
+    background-color: #C4CFD1;
 }
 
 h1, h2, h3 {
@@ -11,6 +11,11 @@ h1, h2, h3 {
 
 a {
     text-decoration: none;
+}
+
+.add-to-wishlist {
+    width: 2.5em;
+    height: auto;
 }
 
 nav {
