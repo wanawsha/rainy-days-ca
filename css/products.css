@@ -5,19 +5,36 @@
 
 body {
     color: #0A3641;
+    min-height: 100vh;
+}
+
+main {
+    margin: 70px;
+}
+
+.cta {
+    background-color: #0A3641;
+    color:#fff;
+    text-decoration: none;
+    padding: 20px 80px;
+    border-radius: 10px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+
 }
 
 
 .products-list-women, .products-list-men {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr auto;
+    grid-template-rows: 1fr auto auto;
     grid-gap: 10px 30px;
 }
 
 .products-w, .products-m {
     display: grid;
     place-items: center space-evenly;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr auto;
     background-color: #fff;
     border-radius: 5px;
@@ -33,12 +50,17 @@ body {
     align-self: end;
 }
 
+.products-w a, .products-m a {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    place-content: center;
+    text-align: center;
+}
 
 .products-w img, .products-m img {
     grid-row: 1 / 2;
     width: 100%;
     max-width: 250px;
     height: auto;
-
 }
 

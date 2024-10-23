@@ -1,1 +1,37 @@
 @import url("/css/style.css");
+
+body {
+    background-color: #fff;
+    color: #0A3641;
+}
+
+.about-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 70vh; 
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.about-us img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+}
+
+.about-us-content {
+    grid-column: 2 / 3; /* Paragraph in the second column */
+    align-self: center; /* Vertically centers the paragraph */
+    justify-self: center; /* Horizontally centers the paragraph */
+    text-align: left; /* Ensures text inside the paragraph is centered */
+    max-width: 70%;
+    margin-bottom: 100px;
+    font-family: 'Din Alternate';
+    font-size: 1.4em;
+    line-height: 150%;
+
+}
+
+.about-us-content h2 {
+    font-size: 2em;
+}

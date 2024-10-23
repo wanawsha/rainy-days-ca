@@ -8,6 +8,17 @@ h1 {
     text-transform: uppercase;
 }
 
+.cta {
+    background-color: #0A3641;
+    color:#fff;
+    text-decoration: none;
+    padding: 20px 80px;
+    border-radius: 10px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+
+}
+
 .new-arrivals {
     text-transform: uppercase;
     display: grid;
@@ -64,8 +75,6 @@ h1 {
 
 }
 
-
-
 .women-products img, .men-products img {
     width: 100%;
     height: auto;
@@ -73,20 +82,34 @@ h1 {
 
 
 .about-us-home {
-    display: flex;
-    background-color: #56747C;
-    background-image: url(/images/about-us.jpg);
-    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #769299;
     max-width: 1600px;
-    padding: 190px;
-    margin: 40px auto;
+    margin: 70px auto;
     border-radius: 5px;
     
 }
 
 .about-us-content-home {
-    display: block;
+    grid-column: 2 / 3;
     color: #ffffff;
     font-size: 1.5em;
+    text-align: left;
+    justify-self: center;
+    line-height: 200%;
+    font-size: 1.7em;
+    margin-top: 70px;
 
+}
+
+.about-us-home img {
+    grid-column: 1 / 2;
+    border-radius: 5px;
+}
+
+.about-us-content-home h2 {
+    font-family: 'Din Condensed';
+    text-transform: uppercase;
 }
