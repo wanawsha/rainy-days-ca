@@ -8,3 +8,63 @@
     <link href="/css/checkout.css" rel="stylesheet">
     <title>Checkout - Rainy Days</title>
 </head>
+<body>
+    <header>
+            <section class="logo-container">
+                <p><a href="index.html" class="logo">Rainy Days</a></p>
+            </section>
+            <section>
+            <nav>
+                <ul>
+                    <li><a href="/products/products.w.html">Women</a></li>
+                    <li><a href="/products/products.m.html">Men</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="checkout-details">
+            <form method="post">
+            <div class="personal-details">
+                <h3>Personal Details</h3>
+                <label for="first-name">First Name:</label>
+                <input type="text" name="name" id="name" class="form__input" required>
+                <label for="last-name">Last Name:</label>
+                <input type="text" name="name" id="name" class="form__input" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" class="form__input" required>
+            </div>
+            <div class="shipping-address">
+                <h3>Shipping Address</h3>
+                <label for="address">Home Address:</label>
+                <input type="text" name="address" id="address" class="form_input" required>
+                <label for="zip-code">Zip Code:</label>
+                <input type="text" name="zip-code" id="address" class="form_input" required>
+                <label for="town">Town:</label>
+                <input type="text" name="town" id="town" class="form_input" required>
+            </div>
+            <div class="card-details">
+                <h3>Card Details</h3>
+                <label for="card-number">Card Number:</label>
+                <input type="text" name="card-number" id="card-number" required>
+                <label for="date">MM / YY:</label>
+                <input type="text" name="date" id="date" required> 
+            </div>
+        </form>
+        <div class="in-cart">
+            <h2>Your Cart:</h2>
+            <img src="/images/jacket-green.jpg" alt="military-green jacket">
+            <p class="selected-jacket">Jacket 2</p>
+            <p class="selected-size">Size: Small</p>
+            <p class="price">$70</p>
+            <p class="total-price">Total: $70</p>
+        </div>
+    </section>
+    </main>
+    <footer>
+        Copyright 2024 &copy;
+    </footer>
+
+</body>

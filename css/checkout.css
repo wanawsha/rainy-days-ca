@@ -1,1 +1,49 @@
 @import url("/css/style.css");
+
+.checkout-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.personal-details {
+    grid-column: 1 / 2;
+    background-color: #fff;
+    margin: 20px;
+    
+}
+
+.in-cart {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    background-color: #fff;
+    border-radius: 5px;
+    
+}
+
+.in-cart img {
+    width: 100%;
+    height: auto;
+    min-width: 40px;
+    max-width: 80px;
+    grid-column: 1 / 2;
+    background-color: #fff;
+    justify-content: left;
+}
+
+
+.price {
+    grid-column: 3 / 4;
+}
+
+.total-price {
+    grid-column: 3 / 4;
+}
+
+.selected-size, .selected-jacket {
+    grid-column: 2 / 3 ;
+    grid-row: 2 / 3;
+    text-align: center;
+    
+}

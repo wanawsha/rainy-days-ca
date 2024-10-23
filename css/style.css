@@ -63,11 +63,22 @@ header {
     margin-right: 20px;
 }
 
+.add-to-cart {
+    background-color: #0A3641;
+    color: #fff;
+    padding: 20px 80px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    
+}
+
 main {
     margin: 15px;
 }
 
 footer {
+    text-align: center;
     background-color: #56747C;
     padding: 100px;
     color: #fff;
