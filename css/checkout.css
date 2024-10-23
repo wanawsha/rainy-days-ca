@@ -4,22 +4,35 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    margin: 0px;
 }
 
 .personal-details {
     grid-column: 1 / 2;
     background-color: #fff;
     margin: 20px;
+    grid-column: 1 / 2;
+}
+
+
+.shipping-address, .card-details, .personal-details {
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.shipping-address {
+    grid-column: 2 / 3;
     
 }
+
 
 .in-cart {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto 1fr auto;
     background-color: #fff;
-    border-radius: 5px;
-    
+    border-radius: 5px;   
 }
 
 .in-cart img {
@@ -30,6 +43,7 @@
     grid-column: 1 / 2;
     background-color: #fff;
     justify-content: left;
+    margin: 40px;
 }
 
 
@@ -47,3 +61,11 @@
     text-align: center;
     
 }
+
+input, textarea {
+    border: 1px solid #C4CFD1;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+}
+

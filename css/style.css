@@ -5,6 +5,7 @@ body {
     background-color: #C4CFD1;
 }
 
+
 h1, h2, h3 {
     font-family: 'Din Alternate';
 }
@@ -75,6 +76,13 @@ header {
 
 main {
     margin: 15px;
+}
+
+input, textarea {
+    border: 1px solid #C4CFD1;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
 }
 
 footer {
