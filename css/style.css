@@ -3,6 +3,8 @@ body {
     min-height: 100vh;
     margin: 0px;
     background-color: #C4CFD1;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 
@@ -88,6 +90,6 @@ input, textarea {
 footer {
     text-align: center;
     background-color: #56747C;
-    padding: 100px;
+    padding: 80px;
     color: #fff;
 }

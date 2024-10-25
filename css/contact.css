@@ -1,1 +1,61 @@
 @import url("/css/style.css");
+
+body {
+    color: #0A3641
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
+
+/*
+.contact {
+    max-width: 800px;
+    width: 100%;
+    padding: 0px 200px;
+}
+
+.contact-info {
+    font-size: 1.5em;
+    margin-left: 200px;
+}
+
+*/
+.contact {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.contact > * {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form {
+    max-width: 700px;
+}
+/*
+.contact {
+    max-width: 1000px;
+    display: grid;
+    margin: 40px auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form {
+    grid-column: 1 / 2;
+    
+
+}
+
+.contact-info {
+    font-size: 1.4em;
+    margin: 0px 50px;
+    line-height: 1.5em;
+}
+*/
