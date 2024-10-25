@@ -1,15 +1,93 @@
 @import url("/css/style.css");
 
 body {
-    color: #0A3641
+    color: #0A3641;
+}
+h3, h2 {
+    text-transform: uppercase;
+}
+main {
+    min-height: 75vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.contact-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
 }
 
-main {
-    height: 80vh;
+
+.contact-form input {
     display: flex;
-    justify-content:  center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 300px;
+    
 }
+
+.contact-info {
+    max-width: 600px;
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+
+.message-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#message {
+    min-width: 250px;
+}
+
+
+@media (max-width: 400px) {
+    main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column-reverse; 
+
+    }
+
+    .contact {
+        margin: 20px;
+    }
+
+    .contact-form{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 .contact {
@@ -21,19 +99,6 @@ main {
 .contact-info {
     font-size: 1.5em;
     margin-left: 200px;
-}
-
-*/
-.contact {
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-}
-
-.contact > * {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
 }
 
 .contact-form {
