@@ -26,6 +26,18 @@
     </header>
     <main>
         <section class="checkout-details">
+            <section>
+                <h2>Your Cart:</h2>
+                <div class="in-cart">
+    
+                    <p id="selected-jacket">Jacket 2 Size: Small</p>
+                    <p id="price">$70</p>
+                    
+                    <img src="/images/jacket-green.jpg" alt="military-green jacket">
+                </div>
+                <p id="total-price">Total: $70</p>
+            </section>
+            <section class="form">
             <form method="post">
             <div class="personal-details">
                 <h3>Personal Details</h3>
@@ -51,17 +63,12 @@
                 <input type="text" name="card-number" id="card-number" required>
                 <label for="date">MM / YY:</label>
                 <input type="text" name="date" id="date" required> 
+                <label for="cvc">CVC:</label>
+                <input type="text" name="cvc" id="cvc" required>
             </div>
+            <input type="submit" value="Complete Order" class="complete-order-cta">
         </form>
-        <div class="in-cart">
-            <h2>Your Cart:</h2>
-            <img src="/images/jacket-green.jpg" alt="military-green jacket">
-            <p class="selected-jacket">Jacket 2</p>
-            <p class="selected-size">Size: Small</p>
-            <p class="price">$70</p>
-            <p class="total-price">Total: $70</p>
-        </div>
-    </section>
+        </section>
     </main>
     <footer>
         Copyright 2024 &copy;

@@ -23,6 +23,7 @@ main {
 
 }
 
+/*Products Lists*/
 
 .products-list-women, .products-list-men {
     display: grid;
@@ -40,6 +41,7 @@ main {
     border-radius: 5px;
     padding: 20px;
     grid-row: 2 / 3 ;
+    border: 1px solid #0A3641;
     
 }
 
@@ -64,4 +66,43 @@ main {
     height: auto;
     margin-left: 15px;
 }
+
+/*Product Details Page*/
+
+
+
+body {
+    background-color: #fff;
+    
+}
+.product-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    border-radius: 5px;
+    margin: 60px 0px;
+    max-width: 1200px;
+    justify-items: center;
+}
+
+.product-details img {
+    max-width: 400px;
+    grid-row: 1 / 6;
+}
+
+.product-details-content {
+   
+}
+
+.product-details p {
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+
+.product-details h3 {
+    font-size: 2em;
+}
+
+
+
 
