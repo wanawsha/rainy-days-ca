@@ -44,3 +44,38 @@ body {
     font-size: 2em;
 }
 
+@media (max-width: 400px) {
+
+    body {
+        background-color: #C4CFD1;
+    }
+    .product-details {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 40px;
+        font-size: 1.7em;
+    }
+
+    .add-to-cart {
+        max-width: 190px;
+        margin: auto 20px;
+    }
+
+    .product-details img {
+        border: 1px solid #0A3641;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    .product-details-content {
+        background-color: #fff;
+    }
+
+    .product-details-content h3 {
+        margin-top: 0px;
+        background-color: #fff;
+    }
+}
+

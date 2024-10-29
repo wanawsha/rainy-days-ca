@@ -20,6 +20,8 @@ a {
 nav {
     background-color: #56747C;
     padding: 5px;
+    display: flex;
+    flex-direction: row;
     
 }
 
@@ -42,6 +44,7 @@ nav a {
     color: white
 }
 
+
 img {
     width: 100%;
 }
@@ -51,6 +54,10 @@ header {
     padding:15px 0px 0px 0px;
 }
 
+
+.current {
+    text-decoration: underline;
+}
 
 .logo-container {
     text-align: center;
@@ -94,3 +101,5 @@ footer {
     padding: 80px;
     color: #fff;
 }
+
+
