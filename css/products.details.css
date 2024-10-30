@@ -44,7 +44,7 @@ body {
     font-size: 2em;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
 
     body {
         background-color: #C4CFD1;
@@ -60,6 +60,7 @@ body {
     .add-to-cart {
         max-width: 190px;
         margin: auto 20px;
+        text-align: center;
     }
 
     .product-details img {
@@ -79,3 +80,15 @@ body {
     }
 }
 
+@media (min-width: 601px) and (max-width: 1000px) {
+    
+    .product-details img {
+        max-width: 300px;
+        margin-top: 20px;
+    }
+
+    .product-details-content {
+        max-width: 300px;
+    }
+
+}
