@@ -54,6 +54,12 @@ header {
     padding:15px 0px 0px 0px;
 }
 
+.cart {
+    height: 40px;
+    width: 40px;
+    display: flex;
+}
+
 
 .current {
     text-decoration: underline;

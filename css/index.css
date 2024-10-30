@@ -141,3 +141,21 @@ h1 {
     font-family: 'Din Condensed';
     text-transform: uppercase;
 }
+
+@media (max-width: 600px) {
+    .new-arrivals, .home-womens-products, .home-mens-products, .about-us-home {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    img {
+        min-height: 500px;
+        height: 100%;
+    }
+
+
+    .about-us-content-home {
+        margin-left: 80px;
+        margin-bottom: 40px;
+    }
+}

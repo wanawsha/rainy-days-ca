@@ -27,3 +27,12 @@ main {
     font-size: 1.4em;
     text-transform: uppercase;
 }
+
+
+@media (max-width: 800px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
