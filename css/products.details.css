@@ -22,6 +22,7 @@ body {
 
 .product-details img {
     max-width: 400px;
+    height: auto;
     grid-row: 1 / 6;
 }
 
@@ -68,6 +69,7 @@ body {
         padding: 20px;
         border-radius: 5px;
         background-color: #fff;
+        
     }
 
     .product-details-content {

@@ -1,5 +1,5 @@
 body {
-    font-family: 'Din Condensed';
+    font-family: 'Din Condensed', Arial, Helvetica, sans-serif;
     min-height: 100vh;
     margin: 0px;
     background-color: #C4CFD1;
@@ -88,6 +88,11 @@ header {
     text-transform: uppercase;
     margin-top: 20px;
    
+}
+
+.add-to-cart:hover, .cta:hover, .complete-order-cta:hover {
+    background-color: #56747C;
+
 }
 
 main {
