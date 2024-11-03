@@ -5,6 +5,7 @@ body {
     background-color: #C4CFD1;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    overflow-x: hidden;
 }
 
 
@@ -21,8 +22,8 @@ nav {
     background-color: #56747C;
     padding: 5px;
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;  
+    /*justify-content: center;*/
 }
 
 nav li {
@@ -34,9 +35,7 @@ nav li {
 nav ul {
     display: flex;
     justify-content: left;
-    text-align: center;
-    gap: 50px;
-    margin-right: 90px;
+    gap: 15px;  
 }
 
 nav a {
@@ -53,13 +52,6 @@ header {
     background-color: #C4CFD1;
     padding:15px 0px 0px 0px;
 }
-
-.cart {
-    height: 40px;
-    width: 40px;
-    display: flex;
-}
-
 
 .current {
     text-decoration: underline;
@@ -112,5 +104,4 @@ footer {
     padding: 80px;
     color: #fff;
 }
-
 

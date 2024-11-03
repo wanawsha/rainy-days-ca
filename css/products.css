@@ -1,5 +1,5 @@
-@import url(/css/style.css);
-@import url(/css/index.css);
+@import url("/css/style.css");
+@import url("/css/index.css");
 
 /*Women's & Men's Jackets Page*/
 
@@ -82,10 +82,6 @@ main {
         
     }
 
-    nav li {
-        margin-left: 15px;
-    }
-
 }
 
 
@@ -100,10 +96,6 @@ main {
         display: flex;
         flex-direction: column;
         text-align: left;
-    }
-
-    nav li {
-        margin-left: 15px;
     }
 
 }

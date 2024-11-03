@@ -88,10 +88,7 @@ main {
         text-align: left;
         display: flex;
         justify-content: center;
-    }
-
-   
-   
+    } 
 }
 
 
@@ -104,10 +101,6 @@ main {
         display: flex;
         flex-direction: column-reverse; 
         }
-
-    
-
-    
    
 }
 
