@@ -12,7 +12,7 @@ Features:
 
  - Product listing pages for men and women
 
- - Individual product details (static)
+ - Individual product details 
 
  - Checkout page and confirmation page
 
